@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         btClear.setOnClickListener(listener);
     }
     private class HelloListener implements View.OnClickListener {
-        @SuppressLint("SetTextI18n")
+        @SuppressLint({"SetTextI18n", "DefaultLocale"})
         public void onClick(View view){
             EditText age = findViewById(R.id.etAge);
             EditText height = findViewById(R.id.etHeight);
@@ -54,42 +54,42 @@ public class MainActivity extends AppCompatActivity {
                     output1.setText("あなたの肥満度は");
                     output2.setText(under);
                     output3.setText("あなたの適正体重は");
-                    output4.setText(String.format("%.1f  kg",Float.valueOf(IBW)));
+                    output4.setText(String.format("%.1f  kg", IBW));
                 }
                 else if (18.5<=BMI&&25>BMI){
                     String normal = getString(R.string.deg_normal);
                     output1.setText("あなたの肥満度は");
                     output2.setText(normal);
                     output3.setText("あなたの適正体重は");
-                    output4.setText(String.format("%.1f  kg",Float.valueOf(IBW)));
+                    output4.setText(String.format("%.1f  kg", IBW));
                 }
                 else if (25<=BMI&&30>BMI){
                     String lv1 = getString(R.string.deg_lv1);
                     output1.setText("あなたの肥満度は");
                     output2.setText(lv1);
                     output3.setText("あなたの適正体重は");
-                    output4.setText(String.format("%.1f  kg",Float.valueOf(IBW)));
+                    output4.setText(String.format("%.1f  kg", IBW));
                 }
                 else if (30<=BMI&&35>BMI) {
                     String lv2 = getString(R.string.deg_lv2);
                     output1.setText("あなたの肥満度は");
                     output2.setText(lv2);
                     output3.setText("あなたの適正体重は");
-                    output4.setText(String.format("%.1f  kg",Float.valueOf(IBW)));
+                    output4.setText(String.format("%.1f  kg", IBW));
                 }
                 else if (35<=BMI&&40>BMI) {
                     String lv3 = getString(R.string.deg_lv3);
                     output1.setText("あなたの肥満度は");
                     output2.setText(lv3);
                     output3.setText("あなたの適正体重は");
-                    output4.setText(String.format("%.1f  kg",Float.valueOf(IBW)));
+                    output4.setText(String.format("%.1f  kg", IBW));
                 }
                 else if (40<=BMI) {
                     String lv4 = getString(R.string.deg_lv4);
                     output1.setText("あなたの肥満度は");
                     output2.setText(lv4);
                     output3.setText("あなたの適正体重は");
-                    output4.setText(String.format("%.1f  kg",Float.valueOf(IBW)));
+                    output4.setText(String.format("%.1f  kg", IBW));
                 }
             }
         }
