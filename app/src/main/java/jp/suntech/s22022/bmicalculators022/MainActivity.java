@@ -93,11 +93,6 @@ public class MainActivity extends AppCompatActivity {
                     output4.setText(String.format("%.1f  kg",Float.valueOf(IBW)));
                 }
             }
-
-
-
-
-
         }
     }
 }
