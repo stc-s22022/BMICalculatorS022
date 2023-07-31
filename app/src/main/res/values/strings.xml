@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BMI計算機</string>
+    <string name="tv_age">年齢</string>
+    <string name="tv_sai">歳</string>
+    <string name="tv_height">身長</string>
+    <string name="tv_cm">cm</string>
+    <string name="tv_weight">体重</string>
+    <string name="tv_kg">kg</string>
+    <string name="bt_cal">計算</string>
+    <string name="bt_clear">クリア</string>
+    <string name="deg_under">低体重(瘦せ型)</string>
+    <string name="deg_normal">普通体重(標準)</string>
+    <string name="deg_lv1">肥満(1度)</string>
+    <string name="deg_lv2">肥満(2度)</string>
+    <string name="deg_lv3">肥満(3度)</string>
+    <string name="deg_lv4">肥満(4度)</string>
+    <string name="dialog_title">警告</string>
+    <string name="dialog_msg">適切な肥満度を求めるためには、6歳未満ならばカウプ指数が、
+        6歳以上15歳まではローレル指数が使われます。本アプリはBMIのみに対応しています。</string>
+    <string name="dialog_btn">確認</string>
+</resources>
