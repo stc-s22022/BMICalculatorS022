@@ -9,7 +9,7 @@
     <string name="bt_cal">計算</string>
     <string name="bt_clear">クリア</string>
     <string name="deg_under">低体重(瘦せ型)</string>
-    <string name="deg_normal">普通体重(標準)</string>
+    <string name="deg_normal">普通体重</string>
     <string name="deg_lv1">肥満(1度)</string>
     <string name="deg_lv2">肥満(2度)</string>
     <string name="deg_lv3">肥満(3度)</string>

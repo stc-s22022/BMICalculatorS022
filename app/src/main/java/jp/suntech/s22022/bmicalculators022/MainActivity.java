@@ -91,6 +91,14 @@ public class MainActivity extends AppCompatActivity {
                     output3.setText("あなたの適正体重は");
                     output4.setText(String.format("%.1f  kg", IBW));
                 }
+            } else if (id==R.id.btClear) {
+                age.setText("");
+                height.setText("");
+                weight.setText("");
+                output1.setText("");
+                output2.setText("");
+                output3.setText("");
+                output4.setText("");
             }
         }
     }

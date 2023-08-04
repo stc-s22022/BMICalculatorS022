@@ -33,15 +33,16 @@
     <EditText
         android:id="@+id/etAge"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginBottom="32dp"
         android:ems="10"
+        android:gravity="end"
         android:inputType="number"
+        android:importantForAutofill="no"
         app:layout_constraintBottom_toTopOf="@+id/etHeight"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_gravity="center_horizontal"
-        android:gravity="right"/>
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <TextView
         android:id="@+id/tvSai"
@@ -68,14 +69,15 @@
     <EditText
         android:id="@+id/etHeight"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginBottom="24dp"
         android:ems="10"
+        android:gravity="end"
         android:inputType="numberDecimal"
+        android:importantForAutofill="no"
         app:layout_constraintBottom_toTopOf="@+id/etWeight"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:gravity="right"/>
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <TextView
         android:id="@+id/tvCm"
@@ -102,14 +104,15 @@
     <EditText
         android:id="@+id/etWeight"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginBottom="32dp"
         android:ems="10"
+        android:gravity="end"
         android:inputType="numberDecimal"
+        android:importantForAutofill="no"
         app:layout_constraintBottom_toTopOf="@+id/btCal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:gravity="right"/>
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <TextView
         android:id="@+id/tvKg"
@@ -151,7 +154,7 @@
         android:layout_height="40dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:gravity="center_horizontal"
         android:textSize="20sp"
@@ -170,7 +173,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:gravity="center_horizontal"
-        android:textSize="40dp"
+        android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/tvOutput3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.459"
@@ -178,16 +181,13 @@
 
     <TextView
         android:id="@+id/tvOutput4"
-        android:layout_width="260dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="72dp"
+        android:layout_width="169dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="80dp"
         android:gravity="center_horizontal"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/etAge"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -198,7 +198,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="4dp"
         android:gravity="center_horizontal"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/tvOutput4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.459"
